@@ -1,0 +1,204 @@
+body {
+  background: #dae5d0;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+  margin: 20px 10px;
+}
+
+h1 {
+  color: #fefbe7;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+h2 {
+  color: #f9ebc8;
+  font-size: 40px;
+  font-weight: 50;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+p {
+  font-size: 23px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.dark {
+  background-image: url("https://images.pexels.com/photos/6249808/pexels-photo-6249808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.dark .theme-button {
+  background: #16171b;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark p {
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.dark .workshop-button {
+  color: white;
+  background: rgba(180, 184, 196, 0.3);
+}
+
+.dark a {
+  color: #f9ebc8;
+}
+
+.theme-button {
+  background: black;
+  color: #f9ebc8;
+  border-style: inherit;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 500ms ease-in-out;
+}
+
+.theme-button:hover {
+  background: #f9ebc8;
+  border-color: #f9ebc8;
+  border-style: inherit;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 5px;
+  background: #a0bcc2;
+  border-radius: 20px;
+}
+
+.image-block {
+  display: block;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.pic-2,
+.pic-3,
+.pic-4 {
+  width: 250px;
+  height: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.pic-1 {
+  transition: all 1000ms ease-in-out;
+}
+
+.pic-2,
+.pic-3,
+.pic-4 {
+  transition: all 2500ms ease-in-out;
+}
+
+.pic-1:hover {
+  transform: scale(1.1);
+}
+
+.pic-2:hover {
+  transform: rotateY(360deg) scale(1.2);
+}
+
+.pic-3:hover {
+  transform: rotateZ(360deg) scale(1.2);
+}
+
+.pic-4:hover {
+  transform: rotateX(360deg) scale(1.2);
+}
+
+.workshop-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #7ca5ad;
+  border-color: #7ca5ad;
+  border-style: inherit;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 500ms ease-in-out;
+}
+
+.workshop-button:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.video {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 180%;
+    margin: 5px 70px;
+  }
+
+  .pic-1,
+  .grid {
+    width: 82%;
+  }
+
+  .video {
+    width: 82%;
+  }
+
+  h1 {
+    font-size: 250%;
+  }
+
+  h2 {
+    font-size: 180%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
