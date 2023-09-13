@@ -169,10 +169,13 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-  .theme-button {
+  .theme-button,
+  .workshop-button {
     display: block;
     margin: 0 auto;
     padding: 2px 5px;
+    font-size: 10px;
+    border-radius: 4px;
   }
 
   .container,
@@ -201,7 +204,12 @@ footer {
   }
 
   h2 {
-    font-size: 140%;
+    font-size: 120%;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 18px;
   }
 }
 @keyframes gradient {
