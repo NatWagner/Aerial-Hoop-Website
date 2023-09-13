@@ -5,7 +5,6 @@ body {
 
 h1,
 h2 {
-  text-align: center;
   font-family: "Cinzel Decorative", cursive;
   margin: 20px 10px;
 }
@@ -34,7 +33,6 @@ img {
 
 p {
   font-size: 23px;
-  text-align: center;
   margin: 15px auto;
 }
 
