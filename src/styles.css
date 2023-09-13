@@ -169,26 +169,39 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 180%;
-    margin: 5px 70px;
+  .theme-button {
+    display: block;
+    margin: 0 auto;
+    padding: 2px 5px;
   }
 
-  .pic-1,
+  .container,
+  .image-block {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  .pic-2,
+  .pic-3,
+  .pic-4 {
+    width: 99%;
+    height: 99%;
+  }
+
   .grid {
-    width: 82%;
+    grid-gap: 1px;
   }
 
   .video {
-    width: 82%;
+    width: 95%;
   }
 
   h1 {
-    font-size: 250%;
+    font-size: 200%;
   }
 
   h2 {
-    font-size: 180%;
+    font-size: 140%;
   }
 }
 @keyframes gradient {
